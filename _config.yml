@@ -39,12 +39,9 @@ language: zh-CN    ## blog site languages: en, zh-CN, zh-TW, de
 
 #### Menu
 menu:
-  # Home: /
-  # Archives: /archives
-  # About: /about
-
-  主页: /
-  归档: /archives
+  Home: /
+  Archives: /archives
+  About: /about
 
 ## you can create `tags` and `categories` folders (I had created them already).
 ## And create a `index.md` file in each of them.
@@ -66,7 +63,7 @@ widgets:
 
 
 #### RSS
-rss: /atom.xml ## RSS address.
+# rss: /atom.xml ## RSS address.
 
 #### Image
 imglogo:
@@ -108,14 +105,14 @@ author:
 #### Toc
 toc:
   article: true   ## show contents in article.
-  aside: true     ## show contents in aside.
+  # aside: true     ## show contents in aside.
 ## you can set both of the value to true of neither of them.
 ## if you don't want display contents in a specified post,you can modify `front-matter` and add `toc: false`.
 
 #### Links
-links:
-  码农圈: https://coderq.com
-  Jark's Blog: http://wuchong.me
+# links:
+#   码农圈: https://coderq.com
+#   Jark's Blog: http://wuchong.me
 
 #### Comment
 duoshuo_shortname:    ## e.g. wuchong      your duoshuo short name.       website: http://duoshuo.com
